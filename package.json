@@ -2,9 +2,13 @@
     "name": "@nordcom/lint-commit-regexp",
     "version": "0.1.0",
     "description": "RegExp commit message linter",
-    "type": "module",
     "prettier": "@nordcom/prettier",
     "main": "build/index.js",
+    "type": "module",
+    "engines": {
+        "npm": ">=8",
+        "node": ">=18.12"
+    },
     "scripts": {
         "build": "tsc --project tsconfig.json",
         "lint": "npm run build -- --noEmit",
@@ -28,6 +32,11 @@
     },
     "keywords": [
         "github-actions",
+        "linter",
+        "lint-commit",
+        "commi-message",
+        "utility",
+        "cli"
     ],
     "license": "MIT",
     "bugs": {
