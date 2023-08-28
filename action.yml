@@ -1,0 +1,13 @@
+name: "Lint Commit RegExp"
+description: "Leverage the power of RegExp to standardize and enforce code submission style"
+author: "Filiph Siitam Sandström <filiph@nordcom.io>"
+branding:
+    icon: "git-pull-request"
+    color: "gray-dark"
+runs:
+    using: "node20"
+    main: "dist/index.js"
+inputs:
+    github-token:
+        description: "GitHub token to a 'machine user' to enable commenting on PRs"
+        required: false
