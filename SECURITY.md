@@ -2,9 +2,9 @@
 
 Nordcom Group Inc. takes the security of our software very seriously. Although, due to our size and being such a new and novel company, we do not accept and cannot offer any form of liability (legal or otherwise) as per the included license unless otherwise expressly specified.
 
-If you believe you have found a security flaw or vulnerability, please report it to us in the manner that is described below.
+  If you believe you have found a security flaw or vulnerability, please report it to us in the manner that is described below.
 
-## Reporting Security Concerns and Issues
+  ## Reporting Security Concerns and Issues
 
 **Please, do not report or disclose a potential security vulnerability through a publicly accessible forum like GitHub issues.** 
 
