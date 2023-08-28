@@ -4,6 +4,7 @@
     "description": "RegExp commit message linter",
     "type": "module",
     "prettier": "@nordcom/prettier",
+    "main": "build/index.js",
     "scripts": {
         "build": "tsc --project tsconfig.json",
         "lint": "npm run build -- --noEmit",
