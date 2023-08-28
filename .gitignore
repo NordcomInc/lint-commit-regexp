@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# codecov
+coverage/
+
+# next.js
+.next/
+next.lock/
+out/
+dist/
+public/sitemap*.xml*
+public/robots.txt*
+
+# production
+build/
+
+# misc
+.DS_Store
+.swc
+
+# debug
+npm-debug.log*
+
+# typescript
+*.tsbuildinfo
