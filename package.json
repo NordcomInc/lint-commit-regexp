@@ -7,11 +7,13 @@
     "type": "module",
     "engines": {
         "npm": ">=8",
-        "node": ">=18"
+        "node": "18"
     },
     "scripts": {
         "build": "tsc --project tsconfig.json",
-        "lint": "npm run build -- --noEmit",
+        "lint": "npm-run-all --parallel lint:*",
+        "lint:prettier": "prettier src/**/*.* --check",
+        "lint:types": "npm run build -- --noEmit",
         "test": "jest --coverage --passWithNoTests"
     },
     "author": {
