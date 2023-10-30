@@ -47,7 +47,7 @@
     "homepage": "https://github.com/NordcomInc/lint-commit-regexp/#readme",
     "devDependencies": {
         "@nordcom/prettier": "0.1.1",
-        "@types/jest": "29.5.6",
+        "@types/jest": "29.5.7",
         "@types/node": "20.8.9",
         "eslint": "8.52.0",
         "eslint-config-prettier": "9.0.0",
