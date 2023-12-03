@@ -48,7 +48,7 @@
     "devDependencies": {
         "@nordcom/prettier": "0.1.1",
         "@types/jest": "29.5.10",
-        "@types/node": "20.10.2",
+        "@types/node": "20.10.3",
         "eslint": "8.55.0",
         "eslint-config-prettier": "9.1.0",
         "eslint-plugin-github": "4.10.1",
