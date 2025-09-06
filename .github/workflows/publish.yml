@@ -12,7 +12,7 @@ jobs:
                   ref: ${{ github.event.release.tag_name }}
 
             - name: Setup Node
-              uses: actions/setup-node@v4
+              uses: actions/setup-node@v5
 
             - uses: JasonEtco/build-and-tag-action@v2
               env:
